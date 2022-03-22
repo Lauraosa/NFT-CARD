@@ -5,7 +5,7 @@
 }
 
 body {
-    background: radial-gradient(circle, hsl(213, 60%, 6%) 0%, hsl(216, 59%, 11%) 40%);
+    background-color: hsl(216, 59%, 11%);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,6 +19,9 @@ img {
 }
 
 .card {
+    box-shadow: -2px 2px 19px 9px rhsl(213, 60%, 6%);
+    -webkit-box-shadow: -2px 2px 19px 9px hsl(213, 60%, 6%);
+    -moz-box-shadow: -2px 2px 19px 9px hsl(216, 59%, 11%);
     background-color: hsl(216, 50%, 16%);
     width: min-content;
     height: min-content;
@@ -74,12 +77,17 @@ hr {
     margin-bottom: 10px;
 }
 
+.p3 {
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
 .img4 {
     max-width: 25px;
     border: 1px solid white;
     border-radius: 999rem;
     margin-right: 10px;
     vertical-align: middle;
+    margin-top: 10px;
 }
 
 span {
